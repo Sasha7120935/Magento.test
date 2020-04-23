@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * acl
+ * @copyright Copyright © 2020 Alek. All rights reserved.
+ * @author    beloualek2gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Fixstacks_Meeting::menu" title="Agenda" sortOrder="500">
+                <resource id="Fixstacks_Meeting::agenda" title="Manage Agenda" sortOrder="10">
+                <resource id="Fixstacks_Meeting::agenda_edit" title="Edit Agenda" sortOrder="10"/>
+                <resource id="Fixstacks_Meeting::agenda_delete" title="Delete Agenda" sortOrder="20"/>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

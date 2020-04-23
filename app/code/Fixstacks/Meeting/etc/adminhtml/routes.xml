@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * routes
+ * @copyright Copyright © 2020 Alek. All rights reserved.
+ * @author    beloualek2gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="fixstacks_meeting" frontName="fixstacks_meeting">
+            <module name="Fixstacks_Meeting" />
+        </route>
+    </router>
+</config>

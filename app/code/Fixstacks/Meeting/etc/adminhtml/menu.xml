@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * menu
+ * @copyright Copyright © 2020 Alek. All rights reserved.
+ * @author    beloualek2@gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Fixstacks_Meeting::menu" title="Agenda" module="Fixstacks_Meeting" sortOrder="500" parent="Magento_Backend::content" action="fixstacks_meeting/agenda" resource="Fixstacks_Meeting::agenda"/>
+        <add id="Fixstacks_Meeting::agenda" title="Manage Agenda" module="Fixstacks_Meeting" sortOrder="10" parent="Fixstacks_Meeting::menu" action="fixstacks_meeting/agenda" resource="Fixstacks_Meeting::agenda"/>
+    </menu>
+</config>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * widget.xml
+ *
+ * @copyright Copyright © 2020 Alek. All rights reserved.
+ * @author    beloualek2gmail.com
+ */
+-->
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="fixstacks_meeting_agenda" class="Fixstacks\Meeting\Block\Widget\Agenda">
+        <label translate="true">Display Agenda</label>
+        <description>Display a selected Agenda on any CMS Block or Page</description>
+        <parameters>
+            <parameter name="title" xsi:type="text" visible="true" sort_order="10" >
+                <label translate="true">Title</label>
+            </parameter>
+            <parameter name="text" xsi:type="text" visible="true" sort_order="20" >
+                <label translate="true">Text</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

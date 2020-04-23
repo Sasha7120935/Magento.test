@@ -1,0 +1,16 @@
+{
+  "name": "fixstacks/magento2-module-meeting",
+  "description": "Fixstacks Magento2 module Meeting",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Fixstacks\\Meeting\\": ""
+    }
+  }
+}
