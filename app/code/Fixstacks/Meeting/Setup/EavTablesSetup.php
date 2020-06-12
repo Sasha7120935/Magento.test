@@ -41,6 +41,7 @@ class EavTablesSetup
     protected function createEAVMainTable($entityCode)
     {
         $tableName = $entityCode . '_eav_attribute';
+        $tableName = 'fixstacks_meeting_eav_attribute';
 
         $table = $this->setup->getConnection()->newTable(
             $this->setup->getTable($tableName)
@@ -99,7 +100,8 @@ class EavTablesSetup
             'attribute_id',
             Table::ACTION_CASCADE
         )->setComment(
-            $entityCode . 'Eav Attribute'
+//            $entityCode . 'Eav Attribute'
+            'Fixstacks Meeting Eav Attribute'
         );
         $this->setup->getConnection()->createTable($table);
     }

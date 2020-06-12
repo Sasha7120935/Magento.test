@@ -1,0 +1,11 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Fixstacks_CustomPayment" setup_version="0.0.1">
+        <sequence>
+            <module name="Fixstacks_Sales" />
+            <module name="Fixstacks_Payment" />
+            <module name="Fixstacks_Checkout" />
+            <module name="Fixstacks_Directory" />
+            <module name="Fixstacks_Config" />
+        </sequence>
+    </module>
+</config>

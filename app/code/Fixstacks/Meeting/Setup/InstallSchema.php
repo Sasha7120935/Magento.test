@@ -12,7 +12,7 @@ use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;
 use Fixstacks\Meeting\Setup\EavTablesSetupFactory;
-
+use Fixstacks\Meeting\Setup\AgendaSetup;
 /**
  * @codeCoverageIgnore
  */

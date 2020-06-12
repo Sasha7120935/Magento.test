@@ -1,0 +1,14 @@
+{
+    "name": "fixstacks/custom-theme",
+    "description": "N/A",
+    "require": {
+        "magento/theme-frontend-luma": "100.1.*",
+        "magento/framework": "100.1.*"
+    },
+    "type": "magento2-theme",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

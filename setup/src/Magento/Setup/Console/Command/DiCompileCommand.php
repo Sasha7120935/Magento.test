@@ -144,7 +144,7 @@ class DiCompileCommand extends Command
             // we must have an exit code higher than zero to indicate something was wrong
             return Cli::RETURN_FAILURE;
         }
-
+ //       $modulePaths = ['Fixstacks_Meeting' => '/home/aleksandr/magentotest/app/code/Fixstacks/Meeting'];
         $modulePaths = $this->componentRegistrar->getPaths(ComponentRegistrar::MODULE);
         $libraryPaths = $this->componentRegistrar->getPaths(ComponentRegistrar::LIBRARY);
         $setupPath = $this->directoryList->getPath(DirectoryList::SETUP);

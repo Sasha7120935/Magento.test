@@ -1,0 +1,16 @@
+{
+  "name": "fixstacks/magento2-module-knockoutJs",
+  "description": "Fixstacks Magento2 module KnockoutJs",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Fixstacks\\KnockoutJs\\": ""
+    }
+  }
+}

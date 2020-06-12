@@ -1,0 +1,16 @@
+{
+  "name": "fixstacks/magento2-module-customPayment",
+  "description": "Fixstacks Magento2 module CustomPayment",
+  "require": {
+    "php": "~7.2.29"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Fixstacks\\CustomPayment\\": ""
+    }
+  }
+}
